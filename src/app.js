@@ -25,6 +25,8 @@ app.get('/countries/all', (req, res) => {
 
 
 
+
+
 app.listen(port, () => {
     console.log('App server is running on ' + port + ' port');
 })
