@@ -75,9 +75,8 @@ app.get('/animals/:animal', (req, res) => {
         comments: [],
         whatItEats: [],
         ageRange: "",
-        videos: []
-
-
+        videos: [], 
+        model3D: ""
     });
 });
 
