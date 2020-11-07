@@ -85,8 +85,8 @@
         "conservationStatus" : "Endangered",
         "Countries" : ["Angola", "Benin", "Botswana", "Burkina Faso", "Central African Republic", "Chad", "Ethiopia", "Kenya", "Malawi", "Mozambique", "Namibia", "Niger", "Senegal", "South Africa", "South Sudan", "Sudan", "Tanzania", "Zambia", "Zimbabwe"],
         "video" : "https://youtu.be/82kQTkWnKwg",
-        "profileImage" : " http://animalia.bio/uploads/animals/photos/small/1x1/relaxed-wild-dog.jpg", 
-        "coverImage" : " http://animalia.bio/uploads/animals/photos/full/1.25x1/african-wild-hunting-dog-1.jpg"
+        "profileImage" : "http://animalia.bio/uploads/animals/photos/small/1x1/relaxed-wild-dog.jpg", 
+        "coverImage" : "http://animalia.bio/uploads/animals/photos/full/1.25x1/african-wild-hunting-dog-1.jpg"
     }, 
     {
         "name" : "Gaint Panda",
