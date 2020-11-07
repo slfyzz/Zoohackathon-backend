@@ -2,10 +2,9 @@ const express = require('express');
 
 
 const getAllCountries = require('./utilities/countries');
-
+const db = require('./utilities/db/dbManager');
 app = express();
 port = process.env.PORT || 3000;
-
 
 app.get('/countries/all', (req, res) => {
 
@@ -25,59 +24,46 @@ app.get('/:country/animals', (req, res) => {
     const country = req.params.country;
     
     // some querying and logic
-
-    res.send([
-        {
-            name: "Cat",
-            species: "Animals",
-            extinct: false,
-            pet: true,
-            img: ""
-        },
-        {
-            name: "Eagle",
-            species: "Birds",
-            extinct: true,
-            pet: false,
-            img: ""
-        },
-        {
-            name: "Sharks",
-            species: "Fish",
-            extinct: true,
-            pet: false,
-            img: ""
-        }, 
-        {
-            name: "Cheetah",
-            species: "Animals",
-            extinct: false,
-            pet: false,
-            img: ""
+    db.getAnimalByCountry(country, (error, animalList) => {
+        if (error) {
+            return res.send({
+                "error" : "cannot get animals"
+            })
         }
-    ]);
+        animalList.forEach(animal => {
+            if (animal.conservationStatus.toLowerCase().includes('endangered') || animal.conservationStatus.toLowerCase().includes('vulnerable')) {
+                animal.extinct = true;
+            }
+            else 
+                animal.extinct = false;
+        })
+
+        res.send(animalList);
+    });
+    
 });
 
 
 app.get('/animals/:animal', (req, res) => {
     const animal = req.params.animal;
+    db.getAnimal(animal, (error, animalList) => {
+        if (error || animalList.length === 0) {
+            return res.send({
+                "error" : "can not get an animal with that name"
+            })
+        }
+        animalList.forEach(animal => {
+            if (animal.conservationStatus.toLowerCase().includes('endangered') || animal.conservationStatus.toLowerCase().includes('vulnerable')) {
+                animal.extinct = true;
+            }
+            else 
+                animal.extinct = false;
+        })
 
+        res.send(animalList[0]);
+    })
 
-    res.send({
-        name : animal,
-        species: animal,
-        pet: true,
-        extinct: false,
-        img: "",
-        description: "",
-        stores: [],
-        whereToSee: [],
-        comments: [],
-        whatItEats: [],
-        ageRange: "",
-        videos: [], 
-        model3D: ""
-    });
+    
 });
 
 

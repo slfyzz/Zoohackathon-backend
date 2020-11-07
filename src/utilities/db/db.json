@@ -1,0 +1,196 @@
+[
+    {
+        "name" : "Cheetah",
+        "Species" : "Acinonyx jubatus",
+        "Description" : "Adult cheetahs’ weight averages between 75 and 125 pounds. They can measure from 40 to 60 inches in length, measured from the head to the hind quarters. The tail can add a further 24 to 32 inches bringing the total overall length up to 7.5 feet. On average, cheetahs stand 28 to 36 inches tall at the shoulder. \n With its long legs and very slender body, the cheetah is quite different from all other cats and is the only member of its genus, Acinonyx. The cheetah’s unique morphology and physiology allow it to attain the extreme speeds for which it’s famous.",
+        "Environment" : "Cheetahs are frequently observed in savannahs, dry and scrub forests, and grasslands. These predators used to cover a much wider area than they currently range. This suggests that cheetahs may have inhabited more habitats, but have since been driven out.",
+        "WhatItEats" : "Because cheetahs are light and lean, they typically hunt smaller prey than other big cats. Their prey is usually between 51 and 123 lbs., and mostly consists of mammals. Some common prey species include gazelles, blesbok, springbok, duiker, and impala. Groups of cheetahs will occasionally bring down larger prey.",
+        "ageRange" : "10 – 12 Years",
+        "Use" : "Cheetahs have been kept as pets by some rich and elite members of society. Emperors, kings, and pharaoh kept them as symbols of power, and that practice continues today in some places.",
+        "conservationStatus" : "ESA: endangered\nIUCN: Vulnerable",
+        "Countries" : "Eastern and southwestern Africa",
+        "video" : "",
+        "profileImage" : "https://i.insider.com/54d38ff16da811a36954bbeb?width=960&format=jpeg&auto=webp", 
+        "coverImage" : "https://cdn.mos.cms.futurecdn.net/KWKPBLR39f94L3s67XZPqZ-970-80.jpg"
+    },
+
+    {
+        "name" : "Dorcas gazelle",
+        "Species" : "Gazella dorcas",
+        "Description" : "Dorcas gazelles are small and common gazelles adapted to semidesert climates of Africa and Arabia. They have long ears and strongly curved horns, which bow outwards then turn inwards and forwards at the tips. Both males and females have horns although female horns are much thinner, lighter, and less curved. Dorcas gazelles vary in color depending on location; some have very pale, fawn-colored coats.",
+        "Environment" : "Dorcas Gazelle is the best equipped member of the genus Gazelle to inhabit dry areas. They are found in a variety of habitats: savannahs, semi-deserts, small sand dune fields, consolidated dune areas, and wadis.",
+        "WhatItEats" : "They are associated with a number of different plant species. High densities of Dorcas gazelle are found in sand dune fields with high concentrations of Pancratium sickenbergeri, a preferred food.",
+        "ageRange" : "15 Years",
+        "Use" : "Haunting and habitat destruction have adversely affected gazelle populations in many parts of Egypt.\nIn Morocco, pelts and horns are traded for decorative and medicinal purposes, where they are the most commonly observed ungulate in markets, despite their protected status under Moroccan law. Given the relatively low numbers of wild dorcas gazelles in the country, if locally sourced, this trade could be having a significant negative impact on the local populations of this species.",
+        "conservationStatus" : "Vulnerable",
+        "Countries" : ["Algeria", "Mauritania", "Egypt", "Chad", "Ethiopia", "Djibouti", "Eritrea", "Libya", "Mali", "Morocco", "Niger", "Somalia", "Tunisia", "Sudan", "Jordan"],
+        "video" : "",
+        "profileImage" : "http://animalia.bio/uploads/animals/photos/full/1.25x1/f59GzVc3KbOBWBZkw33v.jpg", 
+        "coverImage" : "https://www.zoobarcelona.cat/sites/default/files/styles/ps_main_img/public/2019-03/Gasela_dorca.jpg?itok=c036n0OR"
+    },
+
+    {
+        "name" : "Australian Terrier",
+        "Species" : "Dogs",
+        "Description" : "Australian Terriers are small but sturdy, self-confident terriers known for a longish torso, distinctive coat furnishings around the neck and forequarters, and a topknot of soft, silky hair that contrasts in texture with an otherwise harsh coat. A long neck lends a dash of elegance to this rough-and-ready terrier, and the dark eyes sparkle with a keen intelligence. Coat colors are blue-and-tan, or solid red or sandy.",
+        "Environment" : "These dogs prefer open environment but they are suitable for small apartment too. It is because they can stay inside the apartment without showing any boredom. But daily exercise is required to maintain their health and spirit.",
+        "WhatItEats" : "They like meat. A balanced ratio must be maintained in order to avoid obesity related problems. Constant monitoring of the feed habit is necessary. Adding of fresh, raw food helps to maintain a normal bowel and therefore sufficient quantity of raw food should be provided in addition to the feed additives.",
+        "ageRange" : "11 Years",
+        "Use" : "They’re used as pet animals.\nIn the past, they were used to control the mice and rats in UK. Despite of their smaller size, Australian terriers are courageous. They can be aggressive to other dogs sometimes.",
+        "conservationStatus" : "Vulnerable",
+        "Countries" : ["Australia", "UK", "Ireland", "United States"],
+        "video" : "",
+        "profileImage" : "https://www.guildinsurance.com.au/images/librariesprovider3/breed-images/test-(dog-breed-images)/australian-terrier-(3)-(1)-(1).jpg?sfvrsn=1276640b_2", 
+        "coverImage" : "https://s3.amazonaws.com/cdn-origin-etr.akc.org/wp-content/uploads/2017/11/19130337/Australian-Terrier-standing-outdoors.jpg"
+    }, 
+    
+    {
+        "name" : "Egyptian vulture",
+        "Species" : "Neophron percnopterus",
+        "Description" : "Adult animals have a bald yellow head and throat, and a white collar. The plumage is a creamy white, in sharp contrast with the black wing coverts. Young birds are brown with paler wings coverts, and slowly whiten with each mould. Egyptian vultures sometimes rub themselves with soil rich in ferric oxides.",
+        "Environment" : "This species generally inhabits arid open areas such as steppe, desert, cereal fields and pastures, but needs rocky sites for nesting. They are often found near where humans live, for example, in or near towns, and around slaughterhouses, rubbish dumps, and fishing ports.",
+        "WhatItEats" : "Egyptian vultures are opportunists and eat very varied. Their diet consists mainly of carrion, but also small mammals, young birds, fish, eggs and even rotting fruit. ",
+        "ageRange" : "37 years ",
+        "Use" : "Hunted for fun. ",
+        "conservationStatus" : "",
+        "video" : "",
+        "Countries" : ["Egypt", "Spain", "France", "Canary Islands", "Albania", "Algeria", "Angola", "Armenia", "Bulgaria", "Burkina Faso", "Cameroon","Central African Republic", "Chad", "Cyprus", "Djibouti", "Ethiopia", "Ghana", "Greece", "Guinea", "India", "Iran", "Iraq", "Italy", "Jordan", "Kazakhstan", "Kenya", "Kuwait", "Lebanon", "Libya", "Mali", "Malta", "Mauritania", "Morocco", "Nepal", "Nigeria", "Oman", "Pakistan", "Palestine", "Portugal", "Russia", "Saudi Arabia", "Senegal", "Somalia"],
+        "profileImage" : "http://animalia.bio/uploads/animals/photos/full/1x1/aves-018-17062014-92-editarjpg.jpg ", 
+        "coverImage" : "https://egyptianstreets.com/wp-content/uploads/2019/05/birdlife.jpeg"
+    }, 
+
+    {
+        "name" : "SLOTH BEAR",
+        "Species" : "Melursus ursinus",
+        "Description" : "Sloth bears have a long, shaggy fur, a mane around the face, and long, sickle-shaped claws. Their fur is completely black (rusty for some specimens) with a whitish Y- or V-shaped mark on the chest. The fur does not have an undercoat, thus keeping Sloth bears cool in the tropical climate and protecting them from insects.",
+        "Environment" : "Tropical Savana, Tropical dry forest and Tropical moist forests",
+        "WhatItEats" : "Sloth bears are omnivorous animals. Their main food is termites and ants. They also supplement their diets with fruit, honey and plant matter.",
+        "ageRange" : "40 years",
+        "Use" : "Hunted for food and products such as their bacula and claws.\ntrade is illegal",
+        "conservationStatus" : "Vulnerable (VU)",
+        "Countries" : ["India", "Nepal", "Sri Lanka"],
+        "video" : "https://youtu.be/39II6G_N7Kc",
+        "profileImage" : "http://animalia.bio/uploads/animals/photos/full/1.25x1/2420-sloth-bear.jpg", 
+        "coverImage" : "https://www.nationalgeographic.com/content/dam/animals/2020/05/sloth-bears/01-sloth-bears-thomasrowell_slothbear_3.adapt.1190.1.jpg"
+    }, 
+
+    {
+        "name" : "AFRICAN WILD DOG",
+        "Species" : "Lycaon pictus",
+        "Description" : "One of the most threatened mammals in the world. The fur of African wild dogs consists entirely of stiff bristle-hairs with no underfur.\nTheir muzzle is usually black, gradually shading into brown on the cheeks and forehead. The tail is usually white at the tip, black in the middle and brown at the base. The back of the head and neck are either brown or yellow.",
+        "Environment" : "Montane grasslands and shrublands, Desert and Xeric Shrublands, Tropical savanna and Tropical dry forest",
+        "WhatItEats" : "African wild dogs are highly specialized for a carnivorous diet. They hunt gazelles and other antelopes, warthogs, wildebeest and their calves, ostrich, and calves of African buffalo. They also hunt smaller prey such as dik-dik, hares, spring hares, insects, birds, and cane rats. African wild dogs rarely scavenge, but have on occasion been observed to appropriate carcasses from Spotted hyenas, leopards, cheetahs, and lions, as well as animals caught in snares.",
+        "ageRange" : "10-11 years",
+        "Use" : "African wild dogs are a very important part of their ecosystem. They eliminate sick and weak animals thus helping to maintain a natural balance in nature.",
+        "conservationStatus" : "Endangered",
+        "Countries" : ["Angola", "Benin", "Botswana", "Burkina Faso", "Central African Republic", "Chad", "Ethiopia", "Kenya", "Malawi", "Mozambique", "Namibia", "Niger", "Senegal", "South Africa", "South Sudan", "Sudan", "Tanzania", "Zambia", "Zimbabwe"],
+        "video" : "https://youtu.be/82kQTkWnKwg",
+        "profileImage" : " http://animalia.bio/uploads/animals/photos/small/1x1/relaxed-wild-dog.jpg", 
+        "coverImage" : " http://animalia.bio/uploads/animals/photos/full/1.25x1/african-wild-hunting-dog-1.jpg"
+    }, 
+    {
+        "name" : "Gaint Panda",
+        "Species" : "Ailuropoda melanoleuca",
+        "Description" : "The Giant panda is a bear of medium to large size with a large head, small eyes, long muzzle, large nose and short tail. It has a very good sense of smell. It has large jaws with strong muscles, and together with its flat molars, is able to crush bamboo leaves and stems. Its thick fur is creamy-white with big black patches on shoulders, ears and nose, with distinctive black patches around its eyes. An extension of its wrist bone, which serves like a thumb, enables them to grip bamboo stems.",
+        "Environment" : "Temprate broadleaf and mixed forests, Temprate coniferous forests",
+        "WhatItEats" : "A panda in the wild eats 99 percent bamboo. They eat as much as 18 kg of bamboo every day. It may also eat other grasses and prey on small rodents and musk deer fawns.",
+        "ageRange" : "20-30 Years",
+        "Use" : "Hunted to their fur, trade is illegal",
+        "conservationStatus" : "Endangered",
+        "Countries" : ["China"],
+        "video" : "https://youtu.be/dqT-UlYlg1s",
+        "profileImage" : "http://animalia.bio/uploads/animals/photos/full/1.25x1/chongqing-2011-05-26-006.jpg", 
+        "coverImage" : "http://animalia.bio/uploads/animals/photos/small/1x1/national-zoological-park-washington-dc-usa.jpg"
+    }, 
+
+    {
+        "name" : "SOUTHERN PUDU",
+        "Species" : "Pudu puda",
+        "Description" : "The pudús are the world's smallest deer, with the southern pudú being slightly larger than the northern pudú. The southern pudu has a coat which is short, glossy, and dark brown to reddish-brown in color, with slightly lighter legs and underparts. The insides of its ears and its lips are orangish. Fawns have white spots, probably for camouflage. Males have short, simple spiked antlers which are shed each year in July.",
+        "Environment" : "Temperate broadleaf and mixed forest",
+        "WhatItEats" : "Southern pudus are browsers, and eat leaves of ferns, trees, vines, fungi, fruit, berries, herbs and shrubs. They also eat alfalfa hay, cereal, nuts, acorns, and salt.",
+        "ageRange" : "10-17 Years",
+        "Use" : "They can affect the abundance of a specific species of tree, and facilitate the spread of seedlings.\nbuilding and maintaining tunnels in the undergrowth, which enables small animals to move through and remain hidden from predators.",
+        "conservationStatus" : "vulnerable",
+        "Countries" : ["Argentina", "Chile"],
+        "video" : "",
+        "profileImage" : "http://animalia.bio/uploads/animals/photos/full/1.25x1/chilean-pudu.jpg", 
+        "coverImage" : "http://animalia.bio/uploads/animals/photos/small/1x1/pudu-deer.jpg"
+    }, 
+
+    {
+        "name" : "SARUS CRANE",
+        "Species" : "Grus antigone",
+        "Description" : "The Sarus crane is the world's tallest flying bird. This crane, when standing, is as tall as a man. These elegant birds are predominantly gray, with long, pale red legs. Their naked head is red, as is their neck. Juveniles have buff feathers on their head and slightly darker plumage.",
+        "Environment" : "Tropical savanna, Tropical moist forests, Tropical dry forest",
+        "WhatItEats" : "Sarus cranes are omnivorous, and eat a wide range of food, such as aquatic plants like sedge tubers, seeds, rice and other grains, crustaceans, snails, large insects such as grasshoppers, amphibians, reptiles, small vertebrates and fish.",
+        "ageRange" : "30-40 Years",
+        "Use" : " As a predator of small invertebrates and vertebrates, Sarus cranes have an important role in controlling these populations. The abundance of their eggs also influences food sources for their natural predators. They also help control vegetation.",
+        "conservationStatus" : "vulnerable",
+        "Countries" : ["Australia", "Cambodia", "China", "India", "Laos", "Myanmar", "Nepal", "Pakistan", "Vietnam", "Bangladesh"],
+        "video" : "",
+        "profileImage" : "http://animalia.bio/uploads/animals/photos/small/1x1/sarus-crane-26.jpg", 
+        "coverImage" : "http://animalia.bio/uploads/animals/photos/full/1.25x1/-15i2279-sarus-crane.jpg"
+    }, 
+
+
+    {
+        "name" : "BLACK LEMUR",
+        "Species" : "Eulemur macaco",
+        "Description" : "The Black lemur lives only on Madagascar and is a rare type of lemur. Males and females look very different from each other, the males having a dark brown or black coat with beady yellow-orange eyes and black tufted ears, while the females have such a different appearance that for a long time they were thought to belong to a different species. Females are tawny on the head and back, with rich-chestnut brown to golden-brown underparts. Their limbs have paler fur and their tails are a darker chestnut brown. Their ears have big tufts like the males, but the hair is white, and is long enough to extend around their cheeks.",
+        "Environment" : "Tropical dry forest, Tropical moist forests",
+        "WhatItEats" : "The Black lemur can be described as either frugivores or folivores. They eats fruit, flowers, leaves, nectar, fungi and sometimes invertebrates like millipedes.",
+        "ageRange" : "20-25 Years",
+        "Use" : "They may also have an important role as pollinators because they eat nectar as well as fruit.\npoached for their fur or meat, and capture for zoos or the pet trade which is illegal.",
+        "conservationStatus" : "Vulnerable",
+        "Countries" : ["Madagascar"],
+        "video" : "",
+        "profileImage" : "http://animalia.bio/uploads/animals/photos/full/1x1/black-lemur-male.jpg", 
+        "coverImage" : "http://animalia.bio/uploads/animals/photos/full/1.25x1/dsc-1065.jpg"
+    }, 
+
+    {
+        "name" : "GOLDEN SNUB-NOSED MONKEY",
+        "Species" : "Rhinopithecus roxellana",
+        "Description" : "This primate exhibits a rich golden brown to golden red fur with a black and golden patch on the back.\nThe tail is as long as the body. The pale blue face resembles a trefoil. Additionally, mature males of this species exhibit red swellings at the corners of their mouth.",
+        "Environment" : "Montane grasslands and shrublands, Temperate coniferous forest, Temperate broadleaf and mixed forest",
+        "WhatItEats" : "As herbivores, the Golden snub-nosed monkeys consume a wide range of food. Their diet generally consists of pine needles and young firs, being supplemented by bamboo shoots, leaves, buds and fruits.",
+        "ageRange" : "26 years",
+        "Use" : "The pelt of this animal has a commercial value, while some parts of its body are used in traditional medicine.\nThe Golden snub-nosed monkeys are also poached to be sold to zoos.\nTrade is illegal.",
+        "conservationStatus" : "Endangered",
+        "Countries" : ["China"],
+        "video" : "",
+        "profileImage" : "http://animalia.bio/uploads/animals/photos/full/1.25x1/-c266134-version-2.jpg", 
+        "coverImage" : "http://animalia.bio/uploads/animals/photos/small/1x1/golden-monkey.jpg"
+    },
+
+    {
+        "name" : "Eastern Curlew",
+        "Species" : "Eastern Curlew",
+        "Description" : "It is a large shorebird, mostly brown in color, differentiated from other curlews by its plain, unpatterned brown underwing. It is not only the largest curlew but probably the world's largest sandpiper, at 60–66 cm (24–26 in) in length and 110 cm (43 in) across the wings.",
+        "Environment" : "The Eastern Curlew is found on intertidal mudflats and sandflats, often with beds of seagrass, on sheltered coasts, especially estuaries, mangrove swamps, bays, harbours and lagoons.",
+        "WhatItEats" : "The Eastern Curlew eats mainly small crabs and molluscs. Foraging by day and night, it is slow and deliberate, stalking slowly on sandy and muddy flats, picking from the surface or probing deep with its long bill.",
+        "ageRange" : "",
+        "Use" : "haunting for fun",
+        "conservationStatus" : "Endangered",
+        "Countries" : ["Australia", "Russia", "China", "Japan", "Korea", "Borneo", "New Zealand"],
+        "video" : "",
+        "profileImage" : "https://www.abc.net.au/cm/rimage/7275190-3x2-xlarge.jpg?v=4", 
+        "coverImage" : "https://wildnet.itp.qld.gov.au/wws/images/4906?f=.jpg"
+    }, 
+
+    {
+        "name" : "Siamese cat",
+        "Species" : "Cat",
+        "Description" : "The Siamese is a cat of extremes. The head is a long triangle. The tall ears are set on the head to be a continuation of this triangle. The nose is long and straight. The legs are long and slender. The tail is long and tapers to a point. The eyes are almond shape and bright blue.\n The Siamese coat is short, glossy and lies close to the body. The beauty of the Siamese cat is the look of the slender body, the blue eyes and the contrast between the color on the body and the darker color of the extremities. This contrast is called color restriction, or, more commonly, pointing. The color of the fur on the ears, tail and feet are a different color than that of the body, and this darker color gradually blends into the lighter color of the body. The face also shows a mask of the same deeper point color. The mask covers the face, surrounds the eyes and covers the whisker pads. The mask is smaller in a kitten and gradually increases as she grows.",
+        "Environment" : "Siamese and similar breeds are temperature-sensitive albinos — they change colors according to different temperatures.",
+        "WhatItEats" : "A balance between the three types of food is the optimal formula in order for the Siamese cat to keep its vitality and health.\n1.Dry feed:\n- well-balanced feed, composed of around 25% protein, 40% fat, plus different percentages of fiber, vitamins and Omega-3 and 6.\n- Some feeds are appropriate for older cats, as they are not as high in protein and fat. As they no longer do as much physical activity, elderly Siamese cats don't require such large amounts of these nutritional elements. \n2. Wet feed:\nThis type of feed should contain a minimum of 35% protein. Its fat percentage should be between 15% and 25%, while carbohydrates should not exceed 5%. This type of feed must contain Omega-3 and Omega-6 fatty acids. Similarly, a small percentage of taurine (slightly higher than 0.10%), is ideal. Essential trace elements like phosphorus, calcium, magnesium, iron and potassium must be present in the composition of this kind of wet feed. As always, check the labels.\n3. Homemade diet\nThe best diet for a Siamese cat consists of a mixture of dry food, wet food and fresh food provided through homemade meals.",
+        "ageRange" : "8-12 years",
+        "Use" : "It's used as a pet animal.",
+        "conservationStatus" : "Least concern",
+        "Countries" : ["Thailand", "United States", "Egypt"],
+        "video" : "",
+        "profileImage" : "https://www.thesprucepets.com/thmb/-G7AqBNKENtr0RcaOCTzSkqvJpc=/450x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/35493166_2113126082300521_5592447779063463936_n-5b69b61946e0fb002562c234.jpg", 
+        "coverImage" : "https://images2.minutemediacdn.com/image/upload/c_crop,h_1194,w_2121,x_0,y_0/f_auto,q_auto,w_1100/v1554737083/shape/mentalfloss/77113-istock-176697468.jpg"
+    }
+]
