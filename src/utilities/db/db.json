@@ -8,7 +8,7 @@
         "ageRange" : "10 – 12 Years",
         "Use" : "Cheetahs have been kept as pets by some rich and elite members of society. Emperors, kings, and pharaoh kept them as symbols of power, and that practice continues today in some places.",
         "conservationStatus" : "ESA: endangered\nIUCN: Vulnerable",
-        "Countries" : "Eastern and southwestern Africa",
+        "Countries" : ["Eastern Africa", "southwestern Africa"],
         "video" : "",
         "profileImage" : "https://i.insider.com/54d38ff16da811a36954bbeb?width=960&format=jpeg&auto=webp", 
         "coverImage" : "https://cdn.mos.cms.futurecdn.net/KWKPBLR39f94L3s67XZPqZ-970-80.jpg"
