@@ -15,6 +15,9 @@ const getAnimalByCountry = (country, callback) => {
                 if (animal.Countries.includes(country)) {
                     animal.Enviornment = animal.Habitat;
                     delete animal.Habitat;  
+
+                    animal.Use = animal.Threats;
+                    delete animal.Threats;
                     animalAtCountry.push(animal);
                 }
             }))
@@ -37,6 +40,9 @@ const getAnimal = (animal, callback) => {
                 if (animal === currentAnimal.name){
                     currentAnimal.Enviornment = currentAnimal.Habitat;
                     delete currentAnimal.Habitat;  
+
+                    currentAnimal.Use = currentAnimal.Threats;
+                    delete currentAnimal.Threats;
                     desiredAnimal.push(currentAnimal);
                 }
             }))
