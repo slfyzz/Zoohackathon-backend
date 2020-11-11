@@ -177,8 +177,17 @@ app.post('/logout', (req, res) => {
 
 app.get('post/:user', (req, res) => {
     const userName = req.params.user;
+    User.findById(userName, (err, doc) => {
+        if (err) {
+            return res.send({error: "server is down"});
+        }
+        else if (!doc) {
+            return res.send({error: "no user with that id"});
+        }
 
-    
+        else 
+            return res.send({user: doc});
+    })
     
 })
 
