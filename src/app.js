@@ -152,14 +152,14 @@ app.post('/register', (req, res) => {
 
 
 app.post('/login', (req, res) => {
-    console.log(req);
+    //console.log(req);
     passport.authenticate('local', (err, user, info) => {
         if (err) 
             return res.send({error: "can not log in, try again"});
         else if (!user) 
             return res.send({error: "no account is linked to that email"});
         else {
-            console.log(user);
+            //console.log(user);
             req.logIn(user, err => {
                 if (err) 
                     return res.send({error: "can not log in, try again"});
