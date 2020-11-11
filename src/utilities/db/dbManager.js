@@ -1,4 +1,5 @@
 const fs = require('fs');
+const { delete } = require('request');
 
 
 const getAnimalByCountry = (country, callback) => {
@@ -12,8 +13,11 @@ const getAnimalByCountry = (country, callback) => {
             const animalAtCountry = [];
 
             animals.forEach((animal => {
-                if (animal.Countries.includes(country))
+                if (animal.Countries.includes(country)) {
+                    animal.Enviornment = animal.Habitat;
+                    delete animal.Habitat;  
                     animalAtCountry.push(animal);
+                }
             }))
             callback(undefined, animalAtCountry);
         }
@@ -31,8 +35,11 @@ const getAnimal = (animal, callback) => {
             const desiredAnimal = [];
 
             animals.forEach((currentAnimal => {
-                if (animal === currentAnimal.name)
+                if (animal === currentAnimal.name){
+                    currentAnimal.Enviornment = currentAnimal.Habitat;
+                    delete currentAnimal.Habitat;  
                     desiredAnimal.push(currentAnimal);
+                }
             }))
             //console.log(desiredAnimal);
 
