@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
+const postSchema = require('./PostSchema');
 
-
-const UserScheme = new mongoose.Schema({
+const UserSchema = new mongoose.Schema({
     name : {
         type: String, 
         required: true
@@ -34,11 +34,11 @@ const UserScheme = new mongoose.Schema({
     country : {
         type: String, 
         required: true
-    }
+    },
+    posts : [postSchema]
 });
 
-const User = mongoose.model('User', UserScheme);
-
+const User = mongoose.model('User', UserSchema);
 module.exports = User;
 
 

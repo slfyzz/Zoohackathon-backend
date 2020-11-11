@@ -7,6 +7,7 @@ const getAllCountries = require('./utilities/countries');
 const db = require('./utilities/db/dbManager');
 const User = require("./models/User");
 const hash = require('./utilities/Hash');
+const { use } = require('passport');
 require('./config/passport')(passport);
 
 
@@ -99,7 +100,7 @@ app.get('/animals/:animal', (req, res) => {
 app.post('/register', (req, res) => {
     const {name, email, password, password2, pPic, cPic, country} = req.body;
 
-    if (!name || !email || !password || !password2 || !country) {
+    if (!name || !email || !password || !password2) {
         return res.send({ error : "you must fill all info"});
     } 
 
@@ -170,6 +171,55 @@ app.post('/login', (req, res) => {
 
 });
 
+app.get('post/:user', (req, res) => {
+    return res.send("here");
+})
+
+
+app.post('/post', (req, res) => {
+    if (!req.isAuthenticated()) {
+        res.send({error: "log in first" });
+    }
+    else {
+        const user = req.user;
+        const {content, img} = req.body;
+
+        user.posts.push({
+            content, 
+            img
+        });
+        user.save()
+               .then((val) => {
+                    console.log(val);
+                    res.send({"Success" : "posted Successfully"});
+                });
+
+    }
+});
+
+
+app.get('/community', (req, res) => {
+    
+    const cursor = User.find().cursor();
+    posts = [];
+    for (let user = await cursor.next(); user != null; user = await cursor.next()) {
+        for (let p = 0; p < user.posts.length; p++) {
+            posts.push({
+                post : user.posts[p],
+                user : user.name,
+                profilePic : user.profilePic
+            })
+        }
+    }
+    posts.sort((a, b) => {
+        if (a.post.time > b.post.time)
+            return -1;
+        else 
+            return 1;
+    })
+
+    res.send({posts});
+});
 
 
 
