@@ -110,6 +110,12 @@ app.post('/register', (req, res) => {
     }
 
     User.findOne({email : email}).exec((err, user) => {
+
+        if (err) {
+            return res.send({error : "Cannt access db"});
+        }
+
+
         console.log(user);
 
         if (user) {
