@@ -202,12 +202,12 @@ app.get('/community', (req, res) => {
     
     const cursor = User.find().cursor();
     posts = [];
-    for (let user = await cursor.next(); user != null; user = await cursor.next()) {
-        for (let p = 0; p < user.posts.length; p++) {
+    for (let doc = await cursor.next(); doc != null; doc = await cursor.next()) {
+        for (let p = 0; p < doc.posts.length; p++) {
             posts.push({
-                post : user.posts[p],
-                user : user.name,
-                profilePic : user.profilePic
+                post : doc.posts[p],
+                user : doc.name,
+                profilePic : doc.profilePic
             })
         }
     }
