@@ -2,7 +2,6 @@ const mongoose = require('mongoose');
 
 
 const commentSchema = new mongoose.Schema({
-    ref: 'User', 
     comment : {
         type: String,
         required : true
@@ -16,8 +15,6 @@ const commentSchema = new mongoose.Schema({
 
 const postSchema = new mongoose.Schema({
     
-    ref: 'User',
-
     content : {
         type: String
     },
