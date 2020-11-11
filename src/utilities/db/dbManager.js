@@ -8,7 +8,7 @@ const getAnimalByCountry = (country, callback) => {
             callback(error);
         }
         else {
-            const animals = JSON.parse(data.toString());
+            const animals = JSON.parse(data.toString()).Sheet1;
             const animalAtCountry = [];
 
             animals.forEach((animal => {
@@ -27,7 +27,7 @@ const getAnimal = (animal, callback) => {
             callback(error);
         }
         else {
-            const animals = JSON.parse(data.toString());
+            const animals = JSON.parse(data.toString()).Sheet1;
             const desiredAnimal = [];
 
             animals.forEach((currentAnimal => {

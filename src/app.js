@@ -140,7 +140,7 @@ app.post('/register', (req, res) => {
                     newUser.save()
                     .then((val) => {
                         console.log(val);
-                        res.send({"Success" : "Welcome " + name + " to Nature Finder"});
+                        res.send({"Success" : "Welcome " + name + " to Nature Finder", newUser});
                     });
                 }
             });
@@ -163,7 +163,7 @@ app.post('/login', (req, res) => {
             req.logIn(user, err => {
                 if (err) 
                     return res.send({error: "can not log in, try again"});
-                return res.send({error : "logged in successfully"});
+                return res.send({Success : "logged in successfully", user});
             })
         }
 
@@ -192,7 +192,7 @@ app.post('/post', (req, res) => {
                .then((val) => {
                     console.log(val);
                     res.send({"Success" : "posted Successfully"});
-                });
+                }); 
 
     }
 });
