@@ -175,7 +175,7 @@ app.post('/logout', (req, res) => {
     res.send({success: "logged out successfully"});
 });
 
-app.get('post/:user', (req, res) => {
+app.get('/post/:user', (req, res) => {
     const userName = req.params.user;
     User.findById(userName, (err, doc) => {
         if (err) {
