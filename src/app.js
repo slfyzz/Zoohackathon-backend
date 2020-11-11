@@ -163,12 +163,17 @@ app.post('/login', (req, res) => {
             req.logIn(user, err => {
                 if (err) 
                     return res.send({error: "can not log in, try again"});
-                return res.send({Success : "logged in successfully", user});
+                return res.send({success : "logged in successfully", user});
             })
         }
 
     });
 
+});
+
+app.post('/logout', (req, res) => {
+    req.logout();
+    res.send({success: "logged out successfully"});
 });
 
 app.get('post/:user', (req, res) => {
