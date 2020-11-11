@@ -1,10 +1,41 @@
 const express = require('express');
-
+const mongoose = require('mongoose');
+const session = require('express-session');
+const passport = require('passport');
 
 const getAllCountries = require('./utilities/countries');
 const db = require('./utilities/db/dbManager');
+const User = require("./models/User");
+const hash = require('./utilities/Hash');
+require('./config/passport')(passport);
+
+
 app = express();
-port = process.env.PORT || 3000;
+app.use(express.json());
+
+
+
+app.use(session({
+    secret : 'secret',
+    resave : true,
+    saveUninitialized : true
+}));
+app.use(passport.initialize());
+app.use(passport.session());
+
+const lab = "mongodb+srv://natureFinderAdmin:Yy8yUa68VmMsX8GP@cluster0.im7gg.mongodb.net/NatureFinder?retryWrites=true&w=majority"
+
+const port = process.env.PORT || 3000;
+const MONGODB_URL = lab || "mongodb://localhost/test";
+
+
+// connect to DB
+mongoose.connect(MONGODB_URL,{useNewUrlParser: true, useUnifiedTopology : true})
+.then(() => console.log('connected,,'))
+.catch((err)=> console.log(err));
+
+
+
 
 app.get('/countries/all', (req, res) => {
 
@@ -65,6 +96,78 @@ app.get('/animals/:animal', (req, res) => {
 
     
 });
+
+
+app.post('/register', (req, res) => {
+    const {name, email, password, password2, pPic, cPic, country} = req.body;
+
+    if (!name || !email || !password || !password2 || !country) {
+        return res.send({ error : "you must fill all info"});
+    } 
+
+    if (password2 !== password) {
+        return res.send({ error : "your passwords dont match"});
+    }
+
+    User.findOne({email : email}).exec((err, user) => {
+        console.log(user);
+
+        if (user) {
+            return res.send({ error : "email already registered"});
+        }
+        else {
+            const newUser = new User({
+                name,
+                email, 
+                country, 
+                password, 
+                profilePic : pPic,
+                cover : cPic
+            });
+
+            hash(password, (error, hashPassword) => {
+                if (error) {
+                    return res.send({"error" : "can not sign up, try again"});
+                }
+                else 
+                {
+                    newUser.password = hashPassword;
+                    newUser.save()
+                    .then((val) => {
+                        console.log(val);
+                        res.send({"Success" : "Welcome " + name + " to Nature Finder"});
+                    });
+                }
+            });
+        }
+    })
+
+
+});
+
+
+app.post('/login', (req, res) => {
+
+    passport.authenticate('local', (err, user, info) => {
+        if (err) 
+            return res.send({error: "can not log in, try again"});
+        else if (!user) 
+            return res.send({error: "no account is linked to that email"});
+        else {
+
+            req.logIn(user, err => {
+                if (err) 
+                    return res.send({error: "can not log in, try again"});
+                return res.send({error : "logged in successfully"});
+            })
+        }
+
+    });
+
+});
+
+
+
 
 
 app.listen(port, () => {
