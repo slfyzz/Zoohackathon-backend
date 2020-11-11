@@ -13,8 +13,6 @@ require('./config/passport')(passport);
 app = express();
 app.use(express.json());
 
-
-
 app.use(session({
     secret : 'secret',
     resave : true,
