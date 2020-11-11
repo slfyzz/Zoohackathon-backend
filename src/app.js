@@ -167,7 +167,7 @@ app.post('/login', (req, res) => {
             })
         }
 
-    });
+    })(req, res);
 
 });
 
