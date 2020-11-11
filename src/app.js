@@ -132,7 +132,7 @@ app.post('/register', (req, res) => {
 
             hash(password, (error, hashPassword) => {
                 if (error) {
-                    return res.send({"error" : "can not sign up, try again"});
+                    return res.send({error : "can not sign up, try again"});
                 }
                 else 
                 {
@@ -140,7 +140,7 @@ app.post('/register', (req, res) => {
                     newUser.save()
                     .then((val) => {
                         console.log(val);
-                        res.send({"Success" : "Welcome " + name + " to Nature Finder", newUser});
+                        res.send({success : "Welcome " + name + " to Nature Finder", user: newUser});
                     });
                 }
             });
@@ -196,7 +196,7 @@ app.post('/post', (req, res) => {
         user.save()
                .then((val) => {
                     console.log(val);
-                    res.send({"Success" : "posted Successfully"});
+                    res.send({success : "posted Successfully"});
                 }); 
 
     }
