@@ -199,27 +199,34 @@ app.post('/post', (req, res) => {
 
 
 app.get('/community', (req, res) => {
-    
-    const cursor = User.find({});
     posts = [];
-    while (await cursor.hasNext()){
-        const doc = await cursor.next();
-        for (let p = 0; p < doc.posts.length; p++) {
-            posts.push({
-                post : doc.posts[p],
-                user : doc.name,
-                profilePic : doc.profilePic
-            })
-        }
-    }
-    posts.sort((a, b) => {
-        if (a.post.time > b.post.time)
-            return -1;
-        else 
-            return 1;
-    })
 
-    res.send({posts});
+    User.find({}).exec((err, data) => {
+        if (err) {
+            return res.send({error: "try agian, server is down"});
+        }
+        
+        for (let i = 0; i < data.length; i++) {
+            if (data[i].posts) {
+                for (let j = 0; j < data[i].posts.length; j++) {
+                    posts.push({
+                        post: data[i].posts[j].toJSON(),
+                        user: data[i].name,
+                        profilePic : data[i].profilePic 
+                    });
+                }
+            }
+        }
+        posts.sort((a, b) => {
+            if (a.post.time > b.post.time)
+                return -1;
+            else 
+                return 1;
+        })
+    
+        res.send({posts});
+    });
+  
 });
 
 
