@@ -1,5 +1,4 @@
 const fs = require('fs');
-const { delete } = require('request');
 
 
 const getAnimalByCountry = (country, callback) => {
