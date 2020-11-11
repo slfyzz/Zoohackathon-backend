@@ -177,7 +177,10 @@ app.post('/logout', (req, res) => {
 });
 
 app.get('post/:user', (req, res) => {
-    return res.send("here");
+    const userName = req.params.user;
+
+    
+    
 })
 
 
