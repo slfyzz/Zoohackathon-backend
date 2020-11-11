@@ -200,9 +200,10 @@ app.post('/post', (req, res) => {
 
 app.get('/community', (req, res) => {
     
-    const cursor = User.find().cursor();
+    const cursor = User.find({});
     posts = [];
-    for (let doc = await cursor.next(); doc != null; doc = await cursor.next()) {
+    while (cursor.hasNext()){
+        const doc = await cursor.next();
         for (let p = 0; p < doc.posts.length; p++) {
             posts.push({
                 post : doc.posts[p],
